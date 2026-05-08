@@ -22,7 +22,7 @@ Este repositório reúne os projetos e atividades desenvolvidos durante o curso 
 
 # 🚀 Tecnologias Utilizadas
 
-<div align="center">
+<div align="left">
 
 | Tecnologia | Descrição |
 |-------------|------------|
