@@ -1,0 +1,79 @@
+footer {
+	background-image: url("../assets/Background_Contacts.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position-y: 80%;
+	padding-top: 128px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer > section:nth-child(1) span {
+	color: var(--main-purple);
+}
+footer > section:nth-child(1) p {
+	font: var(--text-md);
+	color: var(--base-gray-500);
+	margin-top: 8px;
+}
+
+footer > section:nth-child(2) {
+	display: flex;
+	max-width: 25rem;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 16px;
+	margin-top: 48px;
+	padding-bottom: 200px;
+}
+
+footer .card-social-media {
+	width: 400px;
+	padding: 22.63px;
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	background-color: var(--base-gray-300);
+	border-radius: 8px;
+}
+
+footer .card-social-media img {
+	width: 22.72px;
+	height: 22.72px;
+}
+footer .card-social-media p {
+	text-align: left;
+	width: 100%;
+	font: var(--text-md);
+	color: var(--base-gray-500);
+}
+footer .card-social-media span {
+	width: 20px;
+	height: 20px;
+	background-image: url("/assets/icons/ArrowUpRight.svg");
+}
+
+footer section:nth-child(2) a:hover {
+	transform: scale(1.01);
+}
+
+footer section:nth-child(2) a {
+	text-decoration: none;
+}
+
+@media (max-width: 600px) {
+	footer section:nth-child(2) {
+		margin: 2rem auto;
+		width: 90%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	footer section:nth-child(2) a {
+		width: 100%;
+	}
+}

@@ -1,0 +1,78 @@
+header {
+	background-image: url("../assets/Background_Intro.png");
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	background-color: var(--base-gray-200);
+	height: 100%;
+}
+
+#apresentation {
+	padding-top: 4.5rem;
+	max-width: 42.5rem;
+	width: 100%;
+}
+
+#apresentation img {
+	width: 12rem;
+	height: 12rem;
+	border-radius: 10rem;
+	margin-bottom: 1rem;
+}
+#apresentation p {
+	font: var(--subtitle);
+	color: var(--base-gray-500);
+}
+#apresentation p span {
+	color: var(--main-red);
+	font: var(--text-md);
+}
+#apresentation span {
+	font: var(--text-sm);
+	color: var(--base-gray-400);
+}
+#apresentation h1 {
+	font: var(--title-lg);
+	color: var(--base-gray-600);
+	margin: 8px 0 20px 0;
+}
+
+#features {
+	width: 100%;
+	margin-top: 2rem;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 16px;
+}
+
+#features > div {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	background-color: var(--base-gray-300);
+	padding: 8px 16px;
+	border-radius: 999px;
+	font: var(--text-md);
+}
+
+#features > div img {
+	width: 24px;
+	height: 24px;
+}
+
+#features > div span {
+	color: var(--base-gray-500);
+}
+
+header > img {
+	display: flex;
+	margin: 97px auto 57px auto;
+}
+
+@media (max-width: 600px) {
+	#apresentation h1 {
+		font-size: 2.5rem;
+	}
+}

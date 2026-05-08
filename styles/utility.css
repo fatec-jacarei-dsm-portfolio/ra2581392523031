@@ -1,0 +1,59 @@
+.header-sections {
+	width: 100%;
+	text-align: center;
+}
+
+.header-sections span {
+	font: var(--subtitle);
+	color: var(--main-red);
+}
+
+.header-sections h3 {
+	width: 100%;
+	font: var(--title-md);
+	color: var(--base-gray-600);
+	margin-top: 8px;
+}
+
+.card {
+	width: 100%;
+	margin-top: 56px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 1rem;
+}
+
+.card figure {
+	width: 20.625rem;
+	height: 100%;
+	background-color: var(--base-gray-300);
+	padding: 12px;
+	border-radius: 12px;
+}
+
+.card figure img {
+	width: 19rem;
+	height: 9.75rem;
+	object-fit: cover;
+	border-radius: 8px;
+}
+
+.card figure figcaption {
+	text-align: left;
+	margin-top: 24px;
+}
+
+.card figure figcaption p {
+	font: var(--title-sm);
+	color: var(--base-gray-600);
+	margin-bottom: 8px;
+}
+
+.card figure figcaption span {
+	font: var(--text-sm);
+	color: var(--base-gray-500);
+}
+
+

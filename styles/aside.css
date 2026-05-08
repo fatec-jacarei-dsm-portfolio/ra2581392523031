@@ -1,0 +1,47 @@
+aside {
+	width: 100%;
+	background-color: var(--base-gray-100);
+}
+
+aside > section:nth-child(1) {
+	padding-top: 88px;
+}
+
+aside > section:nth-child(2) {
+	width: 100%;
+	padding-bottom: 120px;
+}
+
+#card-services {
+	margin-top: 56px;
+	max-width: 100%;
+}
+
+#card-services figure {
+	background-color: transparent;
+	border: 2px solid var(--base-gray-200);
+	width: 18rem;
+	max-width: 20rem;
+	height: auto;
+	padding: 20px;
+	text-align: left;
+}
+
+#card-services img {
+	width: 48px;
+	height: 48px;
+	object-fit: contain;
+}
+
+@media (max-width: 600px) {
+	#card-services {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#card-services figure {
+		width: 90%;
+	}
+}
