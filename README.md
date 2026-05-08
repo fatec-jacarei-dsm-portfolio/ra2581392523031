@@ -20,6 +20,16 @@ Este repositório reúne os projetos e atividades desenvolvidos durante o curso 
 
 ---
 
+# 🌐 Portfólio Online
+🔗 [Acessar Portfólio](https://fatec-jacarei-dsm-portfolio.github.io/ra2581392523031/)
+
+---
+
+🎬 Vídeo de Apresentação  
+📺 [Assistir vídeo](https://youtu.be/lRRxo8BlwAk)
+
+---
+
 # 🚀 Tecnologias Utilizadas
 
 <div align="left">
