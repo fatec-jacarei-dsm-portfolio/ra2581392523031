@@ -49,67 +49,67 @@ const works = [
 const iconsList = [
     {
         icon: "api-rest",
-        imgageLink: "../assets/icons/api-rest.svg"
+        imgageLink: "./assets/icons/api-rest.svg"
     },
     {
         icon: "react",
-        imgageLink: "../assets/icons/React.svg"
+        imgageLink: "./assets/icons/React.svg"
     },
     {
         icon: "css",
-        imgageLink: "../assets/icons/CSS.svg"
+        imgageLink: "./assets/icons/CSS.svg"
     },
     {
         icon: "devops",
-        imgageLink: "../assets/icons/devops.svg"
+        imgageLink: "./assets/icons/devops.svg"
     },
     {
         icon: "html",
-        imgageLink: "../assets/icons/HTML.svg"
+        imgageLink: "./assets/icons/HTML.svg"
     },
     {
         icon: "javascript",
-        imgageLink: "../assets/icons/JavaScript.svg"
+        imgageLink: "./assets/icons/JavaScript.svg"
     },
     {
         icon: "mysql",
-        imgageLink: "../assets/icons/mysql.svg"
+        imgageLink: "./assets/icons/mysql.svg"
     },
     {
         icon: "nodejs",
-        imgageLink: "../assets/icons/Node.js.svg"
+        imgageLink: "./assets/icons/Node.js.svg"
     },
     {
         icon: "typescript",
-        imgageLink: "../assets/icons/typescript.svg"
+        imgageLink: "./assets/icons/typescript.svg"
     },
     {
         icon: "python",
-        imgageLink: "../assets/icons/python.svg"
+        imgageLink: "./assets/icons/python.svg"
     },
     {
         icon: "arduino",
-        imgageLink: "../assets/icons/arduino.svg"
+        imgageLink: "./assets/icons/arduino.svg"
     },
     {
         icon: "esp32",
-        imgageLink: "../assets/icons/arduino.svg"
+        imgageLink: "./assets/icons/arduino.svg"
     },
     {
         icon: "Iot",
-        imgageLink: "../assets/icons/iot.svg"
+        imgageLink: "./assets/icons/iot.svg"
     },
     {
         icon: "pandas",
-        imgageLink: "../assets/icons/pandas.svg"
+        imgageLink: "./assets/icons/pandas.svg"
     },
     {
         icon: "expo",
-        imgageLink: "../assets/icons/expo.svg"
+        imgageLink: "./assets/icons/expo.svg"
     },
     {
         icon: "postgresql",
-        imgageLink: "../assets/icons/postgresql.svg"
+        imgageLink: "./assets/icons/postgresql.svg"
     },
 ]
 
