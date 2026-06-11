@@ -49,67 +49,67 @@ const works = [
 const iconsList = [
     {
         icon: "api-rest",
-        imgageLink: "./assets/icons/api-rest.svg"
+        imageLink: "../assets/icons/api-rest.svg"
     },
     {
         icon: "react",
-        imgageLink: "./assets/icons/React.svg"
+        imageLink: "../assets/icons/React.svg"
     },
     {
         icon: "css",
-        imgageLink: "./assets/icons/CSS.svg"
+        imageLink: "../assets/icons/CSS.svg"
     },
     {
         icon: "devops",
-        imgageLink: "./assets/icons/devops.svg"
+        imageLink: "../assets/icons/devops.svg"
     },
     {
         icon: "html",
-        imgageLink: "./assets/icons/HTML.svg"
+        imageLink: "../assets/icons/HTML.svg"
     },
     {
         icon: "javascript",
-        imgageLink: "./assets/icons/JavaScript.svg"
+        imageLink: "../assets/icons/JavaScript.svg"
     },
     {
         icon: "mysql",
-        imgageLink: "./assets/icons/mysql.svg"
+        imageLink: "../assets/icons/mysql.svg"
     },
     {
         icon: "nodejs",
-        imgageLink: "./assets/icons/Node.js.svg"
+        imageLink: "../assets/icons/nodejs.svg"
     },
     {
         icon: "typescript",
-        imgageLink: "./assets/icons/typescript.svg"
+        imageLink: "../assets/icons/typescript.svg"
     },
     {
         icon: "python",
-        imgageLink: "./assets/icons/python.svg"
+        imageLink: "../assets/icons/python.svg"
     },
     {
         icon: "arduino",
-        imgageLink: "./assets/icons/arduino.svg"
+        imageLink: "../assets/icons/arduino.svg"
     },
     {
         icon: "esp32",
-        imgageLink: "./assets/icons/arduino.svg"
+        imageLink: "../assets/icons/arduino.svg"
     },
     {
         icon: "Iot",
-        imgageLink: "./assets/icons/iot.svg"
+        imageLink: "../assets/icons/iot.svg"
     },
     {
         icon: "pandas",
-        imgageLink: "./assets/icons/pandas.svg"
+        imageLink: "../assets/icons/pandas.svg"
     },
     {
         icon: "expo",
-        imgageLink: "./assets/icons/expo.svg"
+        imageLink: "../assets/icons/expo.svg"
     },
     {
         icon: "postgresql",
-        imgageLink: "./assets/icons/postgresql.svg"
+        imageLink: "../assets/icons/postgresql.svg"
     },
 ]
 
@@ -120,7 +120,6 @@ works.map((work) => {
 	const figure = document.createElement("figure");
 	const img = document.createElement("img");
 	img.src = work.thumbnail;
-    figure.appendChild(img)
 
 	// FIGCAPTION
 	const figcaption = document.createElement("figcaption");
@@ -181,7 +180,7 @@ works.map((work) => {
         console.log(imgUrl)
         if(imgUrl){
             const imgTag = document.createElement("img")
-            imgTag.src = imgUrl.imgageLink
+            imgTag.src = imgUrl.imageLink
             imgTag.title = imgUrl.icon
             divTags.appendChild(imgTag)
         }
