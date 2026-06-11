@@ -34,7 +34,7 @@ const works = [
 		link: "",
 	},
 	{
-		thumbnail: "../assets/images/Thumbnail_MedAlarm.png",
+		thumbnail: "./assets/images/Thumbnail_MedAlarm.png",
 		title: "Scholar",
 		description: "Aplicação para gerenciamento de secretaria universitaria",
 		contribution: "Fullstack",
@@ -49,11 +49,11 @@ const works = [
 const iconsList = [
     {
         icon: "api-rest",
-        imageLink: "../assets/icons/api-rest.svg"
+        imageLink: "/docs/assets/icons/api-rest.svg"
     },
     {
         icon: "react",
-        imageLink: "../assets/icons/React.svg"
+        imageLink: "/docs/assets/icons/api-rest.svg"
     },
     {
         icon: "css",
