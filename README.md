@@ -6,7 +6,7 @@
 
 ### Desenvolvimento de Software Multiplataforma
 
-📚 2º Semestre de 2025  
+📚 2º Semestre de 2024  
 🏫 Fatec Jacareí  
 💻 Portfólio Acadêmico de Projetos
 
