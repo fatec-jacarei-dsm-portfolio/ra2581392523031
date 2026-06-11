@@ -49,67 +49,67 @@ const works = [
 const iconsList = [
     {
         icon: "api-rest",
-        imageLink: "/docs/assets/icons/api-rest.svg"
+        imageLink: "./assets/icons/api-rest.svg"
     },
     {
         icon: "react",
-        imageLink: "/docs/assets/icons/api-rest.svg"
+        imageLink: "./assets/icons/react.svg"
     },
     {
         icon: "css",
-        imageLink: "../assets/icons/CSS.svg"
+        imageLink: "./assets/icons/CSS.svg"
     },
     {
         icon: "devops",
-        imageLink: "../assets/icons/devops.svg"
+        imageLink: "./assets/icons/devops.svg"
     },
     {
         icon: "html",
-        imageLink: "../assets/icons/HTML.svg"
+        imageLink: "./assets/icons/HTML.svg"
     },
     {
         icon: "javascript",
-        imageLink: "../assets/icons/JavaScript.svg"
+        imageLink: "./assets/icons/JavaScript.svg"
     },
     {
         icon: "mysql",
-        imageLink: "../assets/icons/mysql.svg"
+        imageLink: "./assets/icons/mysql.svg"
     },
     {
         icon: "nodejs",
-        imageLink: "../assets/icons/nodejs.svg"
+        imageLink: "./assets/icons/nodejs.svg"
     },
     {
         icon: "typescript",
-        imageLink: "../assets/icons/typescript.svg"
+        imageLink: "./assets/icons/typescript.svg"
     },
     {
         icon: "python",
-        imageLink: "../assets/icons/python.svg"
+        imageLink: "./assets/icons/python.svg"
     },
     {
         icon: "arduino",
-        imageLink: "../assets/icons/arduino.svg"
+        imageLink: "./assets/icons/arduino.svg"
     },
     {
         icon: "esp32",
-        imageLink: "../assets/icons/arduino.svg"
+        imageLink: "./assets/icons/arduino.svg"
     },
     {
         icon: "Iot",
-        imageLink: "../assets/icons/iot.svg"
+        imageLink: "./assets/icons/iot.svg"
     },
     {
         icon: "pandas",
-        imageLink: "../assets/icons/pandas.svg"
+        imageLink: "./assets/icons/pandas.svg"
     },
     {
         icon: "expo",
-        imageLink: "../assets/icons/expo.svg"
+        imageLink: "./assets/icons/expo.svg"
     },
     {
         icon: "postgresql",
-        imageLink: "../assets/icons/postgresql.svg"
+        imageLink: "./assets/icons/postgresql.svg"
     },
 ]
 
