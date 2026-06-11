@@ -24,6 +24,34 @@ main #projects figure .buttons-projects {
 	padding-block: .3rem;
 }
 
+main #projects figure figcaption {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+main #projects figure figcaption > .funcao, main #projects figure figcaption > .category, main #projects figure figcaption > .tecnology,#projects figure figcaption > .tipo {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #fff;
+}
+
+main #projects figure figcaption > .funcao > span {
+	background-color: #c6c6c6;
+	padding: .4rem;
+	border-radius: 8px;
+	color: black;
+}
+
+main #projects figure figcaption > .tags {
+	display: flex;
+	gap: .5rem;
+}
+
+main #projects figure figcaption > .tags img{
+	width: 24px;
+	height: 24px;
+}
+
 main #projects figure a {
 	width: fit-content;
 	text-decoration: none;
